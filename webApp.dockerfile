@@ -22,3 +22,4 @@ ENTRYPOINT ["dotnet", "webApp.dll"]
 
 
 # docker build -t webapp:latest ./ -f "webApp.dockerfile"
+# docker run -p 5000:80 webapp:latest
